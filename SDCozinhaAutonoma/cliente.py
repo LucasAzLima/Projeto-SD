@@ -2,8 +2,8 @@ import socket
 import os
 import serial
  
-HOST = '127.0.0.1'
-PORTA = 5021
+HOST = '127.0.0.1' #ip
+PORTA = 5021 #porta
  
 tcpSOCKET = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 destinoCONEXAO = (HOST, PORTA)
